@@ -7,9 +7,9 @@ NUM_QUESITI_PER_QUIZ = 10
 QUESTITI = {
     " Quale è l'affermazione giusta?": [
         "se una matrice A contiene solo elementi pari a 0, 1 o -1, allora essa è totalmente unimodulare",
-        "condizione necessaria affinchè una matrice A sia totalmente unimodulare è che essa contenga solo elementi pari a 0, 1 o -1",
-        "condizione necessaria o sufficiente affinchè una matrice A sia totalmente unimodulare è che essa contenga solo elementi pari a 0, 1 o -1",
-        "condizione sufficiente affinchè una matrice A sia totalmente unimodulare è che essa contenga solo elementi pari a 0, 1, o -1",
+        "condizione necessaria affinchè una matrice A sia totalmente unimodulare \n\t è che essa contenga solo elementi pari a 0, 1 o -1",
+        "condizione necessaria o sufficiente affinchè una matrice A sia totalmente unimodulare \n\t è che essa contenga solo elementi pari a 0, 1 o -1",
+        "condizione sufficiente affinchè una matrice A sia totalmente unimodulare \n\t è che essa contenga solo elementi pari a 0, 1, o -1",
     ],
     "Nel metodo del simplesso, cosa può succedere se si incontra una soluzione di base degenere?": [
         "in assenza di regole anti-ciclo, si rischia di rimanere bloccati sullo stesso punto",
@@ -62,24 +62,16 @@ QUESTITI = {
     ],
     "Data una soluzione ammissibile per il primale e data una soluzione ammissibile per il duale, il teorema \n"
     "della complementarieta' primale-duale afferma che:": [
-    "le due soluzioni soddisfano le relazioni di complementarieta' se e solo se sono ottime, rispettivamente, \n"
-    "per il primale e per il duale",
-    "se le due soluzioni sono ottime, rispettivamente, per il primale e per il duale, allora soddisfano le \n",
-    "relazioni di complementarieta' (ma non vale il viceversa)",
-    "se le due soluzioni soddisfano le relazioni di complementarieta' allora sia il primale che il duale ammettono \n"
-    "infinite soluzioni ottime",
-    "se le due soluzioni soddisfano le relazioni di complementarieta' allora esse sono ottime, rispettivamente per \n",
-    "il primale e per il duale (ma non vale il viceversa",
+    "le due soluzioni soddisfano le relazioni di complementarieta' se e solo se sono ottime, \n\t rispettivamente, per il primale e per il duale",
+    "se le due soluzioni sono ottime, rispettivamente, per il primale e per il duale, \n\t allora soddisfano le relazioni di complementarieta' (ma non vale il viceversa)",
+    "se le due soluzioni soddisfano le relazioni di complementarieta' allora sia il primale \n\t che il duale ammettono infinite soluzioni ottime",
+    "se le due soluzioni soddisfano le relazioni di complementarieta' allora esse sono ottime, \n\t rispettivamente per il primale e per il duale (ma non vale il viceversa",
     ],
     "Dato un problema di Programmazione Linerare, sia X la sua regione ammissibile. Allora: ":[
-        "se il problema ha soluzione ottima, ne consegue che possiede almeno una soluzione ottima in corrispondenza \n"
-        "di un punto estremo di X",
-        "se il problema ha soluzione ottima, ne consegue che possiede una soluzione ottima solo in corrispondenza \n"
-        "di un punto estremo di X",
-        "se il problema ha soluzione ottima, ne consegue che possiede al massimo una soluzione ottima in corrispondenza \n"
-        "di un punto estremo di X",
-        "se il problema e' ammissibile, ne consegue che possiede almeno una soluzione ottima in corrispondenza \n"
-        "di un punto estremo di X",
+        "se il problema ha soluzione ottima, ne consegue che possiede almeno una soluzione ottima in corrispondenza di un punto estremo di X",
+        "se il problema ha soluzione ottima, ne consegue che possiede una soluzione ottima solo in corrispondenza di un punto estremo di X",
+        "se il problema ha soluzione ottima, ne consegue che possiede al massimo una soluzione ottima in corrispondenza di un punto estremo di X",
+        "se il problema e' ammissibile, ne consegue che possiede almeno una soluzione ottima in corrispondenza di un punto estremo di X",
     ],
         "Nel metodo del simplesso, in corrispondenza della soluzione di base corrente x̄, il passo α e ottenibile con la \n"
      "                  x̄β(i)       \n"
@@ -117,14 +109,10 @@ QUESTITI = {
         "in numero finito, pari a n!/m!(n-m)!",
     ],
     "Qual è l'affermazione giusta?":[
-        "se il problema ammette soluzione ottima, il simplesso determina una soluzione ottima di base ricercandola fra \n"
-        "le soluzioni ammissibili di base",
-        "se il problema ammette soluzione ottima, il simplesso determina una soluzione ottima (anche non di base) \n"
-        "ricercandola fra tutte le soluzioni ammissibili",
-        "se il problema ammette soluzione ottima, il simplesso determina una soluzione ottima ricercandola fra tutte le \n"
-        "soluzioni di base",
-        "il simplesso determina una soluzione ottima di base, solo quando quest'ultima e' l'unica soluzione ottima del \n"
-        "problema.",
+        "se il problema ammette soluzione ottima, il simplesso determina una soluzione ottima \n\t di base ricercandola fra le soluzioni ammissibili di base",
+        "se il problema ammette soluzione ottima, il simplesso determina una soluzione ottima \n\t (anche non di base) ricercandola fra tutte le soluzioni ammissibili",
+        "se il problema ammette soluzione ottima, il simplesso determina una soluzione ottima \n\t ricercandola fra tutte le soluzioni di base",
+        "il simplesso determina una soluzione ottima di base, solo quando quest'ultima e' l'unica \n\t soluzione ottima del problema.",
     ],
     "Dato un problema di Programmazione Lineare in forma standard, sia A ∈ Rᵐ*ⁿ la matrice dei vincoli (con m < n \n"
     "e rg(A) = m), e il vettore dei costi b ≥ 0 il vettore risorse. Sia p* il valore ottimo di funzione obiettivo del \n"
@@ -147,14 +135,10 @@ QUESTITI = {
         "X non e' un insieme convesso, ne' concavo",
     ],
     "Qual è l'affermazione giusta?":[
-        "la regione ammissibile di un problema di Programmazione Lineare Intera è contenuta nella regione ammissibile\n"
-        "del rilassato continuo",
-        "la regione ammissibile di un problema di Programmazione Lineare Intera contiene la regione ammissibile del\n"
-        "rilassato continuo",
-        "la regione ammissibile di un problema di Programmazione Lineare Intera non si interseca mai con la regione\n"
-        "ammissibile del rilassato continuo",
-        "la regione ammissibile di un problema di Programmazione Lineare Intera coincide sempre con la regione\n"
-        "ammissibile del rilassato continuo"
+        "la regione ammissibile di un problema di Programmazione Lineare Intera è contenuta nella regione ammissibile \n\t del rilassato continuo",
+        "la regione ammissibile di un problema di Programmazione Lineare Intera contiene la regione ammissibile del \n\t rilassato continuo",
+        "la regione ammissibile di un problema di Programmazione Lineare Intera non si interseca mai con la regione \n\t ammissibile del rilassato continuo",
+        "la regione ammissibile di un problema di Programmazione Lineare Intera coincide sempre con la regione \n\t ammissibile del rilassato continuo"
      ],
      "Sia dato un problema di Programmazione Lineare in forma standard, caratterizzato dalla matrice dei vincoli\n"
      "A ∈ Rᵐ*ⁿ, con m < n e rg(A) = m. Un punto x̄ ∈ Rⁿ e' una soluzione di base degenere se:":[
@@ -217,11 +201,16 @@ QUESTITI = {
 
 num_quesiti = min(NUM_QUESITI_PER_QUIZ, len(QUESTITI))
 quesiti = random.sample(list(QUESTITI.items()), k=num_quesiti)
+num_quesito_attuale = 0
 num_corretti = 0
+
 print("\n(っ◔◡◔)っ RO TEORIA, 10 DOMANDE PER QUIZ (っ◔◡◔)っ\n")
 print("✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨\n")
 
 for num, (quesito, alternative) in enumerate (quesiti, start=1):
+    num_quesito_attuale += 1
+    
+    print(f"Quesito ({num_quesito_attuale}/{num_quesiti})")
     print(f"{quesito }")
     risposta_corretta = alternative[0]
     alternative_etichettate = dict(
@@ -234,10 +223,13 @@ for num, (quesito, alternative) in enumerate (quesiti, start=1):
         print(f"inserisci di nuovo")
 
     risposta = alternative_etichettate[etichetta_risposta]
-    if risposta == risposta_corretta:
-        num_corretti += 1
-        print("⭐ Risposta corretta ⭐ \n")
-    else:
+    
+    if risposta != risposta_corretta:
         print(f"Risposta errata. La risposta correta è: {risposta_corretta!r}\n")
+        continue
+		        
+    num_corretti += 1
+    print("⭐ Risposta corretta ⭐ \n")
+        
 
 print(f"✌(◕‿-)✌   RISULTATO: {num_corretti} / 10  ✌(◕‿-)✌ ")
