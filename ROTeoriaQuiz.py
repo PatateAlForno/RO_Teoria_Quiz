@@ -129,10 +129,10 @@ QUESTITI = {
         "solo le sue sottomatrice quadrate e invertibili, di ordine m, hanno determinante pari a 1 o -1",
     ],
     "Dato un problema di Programmazione Lineare, sia X ≠ Ø la sua regione ammissibile. Allora:": [
-        "X e' un insieme convesso",
+        "X è un insieme convesso",
         "X puo' essere un insieme convesso",
-        "X e' un insieme convesso",
-        "X non e' un insieme convesso, ne' concavo",
+        "X è un insieme concavo",
+        "X non è un insieme convesso, nè concavo",
     ],
     "Qual è l'affermazione giusta?":[
         "la regione ammissibile di un problema di Programmazione Lineare Intera è contenuta nella regione ammissibile \n\t del rilassato continuo",
